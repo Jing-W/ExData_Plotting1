@@ -25,7 +25,7 @@ par(new = TRUE)
 plot(x, y2, ylim=range(c(y1, y2, y3)), type = "l", axes = FALSE, xlab = "", ylab = "", col = "red", main = NULL)
 par(new = TRUE)
 plot(x, y3, ylim=range(c(y1, y2, y3)), type = "l", axes = FALSE, xlab = "", ylab = "", col = "blue", main = NULL)
-legend("topright", pch = 1, col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
+legend("topright", lwd = 1, lty = 1, col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 #plot 4
 plot(x, rap, type = "l", main = NULL, xlab = "datetime", ylab = "Global_reactive_power")
 
